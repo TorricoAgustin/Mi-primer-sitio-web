@@ -4,27 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body>
+<body class="col" id="formulario">
     <header>
-      <h1>!Dejá tu comentario¡</h1>
+      <h1 class="espacio">¡Dejá tu comentario!</h1>
     </header>   
     <main>
-        <form action="">
-            <div>
+        <form>
+            <div class="name">
                 <input type="text" name="nombre" placeholder="Nombre">
             </div>
 
-            <div>
+            <div class="name">
                <input type="text" name="apellido" placeholder="Apellido">
             </div>
 
-            <div>
-                <input type="text" name="comentario" placeholder="Tu comentario">
+            <div class="name">
+                <textarea placeholder="Tu comentario" rows="6" cols="47" name="mensaje"></textarea>
             </div>
-                <p></p>
-            <button>ENVIAR</button>
-            <p></p>
+            <div>    
+                <button>ENVIAR</button>
+            </div>
             <p>By: El bebu</p>
 
         </form>
